@@ -35,7 +35,7 @@ public class Member extends BaseEntity {
     private String specAddress;
 
     @Enumerated(EnumType.STRING)
-    @Column(columnDefinition = "VARCHAR(10)")
+    @Column(columnDefinition = "VARCHAR(10)")//
     private Gender gender;
 
     @Enumerated(EnumType.STRING)
