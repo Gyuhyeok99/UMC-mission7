@@ -41,3 +41,13 @@ Esrc/main/java/umc/study/service/tempService/TempQueryServiceImpl.java,6/3/6316
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 X
 (src/main/java/umc/study/Application.java,9/f/9f60dec4ea7e9ccd9c388c4db989f32616b8733f
+g
+7src/main/java/umc/study/domain/mapping/MemberAgree.java,5/f/5fff593d1f404ba4086293be2459675552efe266
+h
+8src/main/java/umc/study/domain/mapping/MemberPrefer.java,3/9/3977816b822b2d16fa66eca1d0af14feaf4726c2
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+e
+5src/main/java/umc/study/domain/common/BaseEntity.java,9/6/96c63f70f572b4a1b0c7d7268ac442dbf65dce1d
+Z
+*src/main/java/umc/study/domain/Region.java,5/c/5cee910d0f0a0cc583b540ee093f83770bcecd93

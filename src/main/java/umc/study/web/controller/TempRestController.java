@@ -19,7 +19,7 @@ public class TempRestController {
 
     @GetMapping("/test")
     public ApiResponse<TempResponse.TempTestDTO> testAPI(){
-
+        
         return ApiResponse.onSuccess(TempConverter.toTempTestDTO());
     }
 
