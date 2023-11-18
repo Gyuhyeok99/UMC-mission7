@@ -81,3 +81,11 @@ l
 <src/main/java/umc/study/converter/MemberPreferConverter.java,a/4/a44764ae998792f327d046cf0bf4fc7da7e64ef0
 a
 1src/main/java/umc/study/config/SwaggerConfig.java,d/8/d8ad6865b7067a20c1a9b2c65126db0a59f81c7d
+H
+.idea/modules/spring.iml,c/a/ca19e1285e2a5f0615ebb5448b845f792ff8e5d9
+M
+.idea/modules/spring.main.iml,f/d/fd2c0a426ef11a6addfce928e112c2af32a2bc34
+M
+.idea/modules/spring.test.iml,0/b/0b1fcda5b95fbda90ece82f3d4d1e32f0be0ac74
+O
+java/umc/study/Application.java,9/a/9a8594f26e964464252ccd54281b4531ca3b1c1b
