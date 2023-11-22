@@ -57,8 +57,6 @@ f
 6src/main/java/umc/study/web/dto/MemberResponseDTO.java,5/9/597c00ef02e4f954191015fb491e70c8dc9cf221
 f
 6src/main/java/umc/study/converter/MemberConverter.java,3/2/32ab9fc76edd870adca416652173b6ad5d20a8aa
-l
-<src/main/java/umc/study/web/controller/MemberController.java,8/5/853260e3cfdda617959d180f57ef2d608c853b09
 {
 Ksrc/main/java/umc/study/service/MemberService/MemberCommandServiceImpl.java,8/a/8ad47bef9b8e347f4c59a2a3233f46e893882521
 w
@@ -87,5 +85,22 @@ M
 .idea/modules/spring.main.iml,f/d/fd2c0a426ef11a6addfce928e112c2af32a2bc34
 M
 .idea/modules/spring.test.iml,0/b/0b1fcda5b95fbda90ece82f3d4d1e32f0be0ac74
-O
-java/umc/study/Application.java,9/a/9a8594f26e964464252ccd54281b4531ca3b1c1b
+p
+@src/main/java/umc/study/web/controller/MemberRestController.java,0/1/016d39c02074977774164b25aeeb1148bfd80ac4
+r
+Bsrc/main/java/umc/study/validation/annotation/ExistCategories.java,2/2/22aabefafc060ab7a9d13628d089b8333b716101
+z
+Jsrc/main/java/umc/study/validation/validator/CategoriesExistValidator.java,6/2/626080521627ff14914eaa5319979664a613fe3b
+`
+0src/main/java/umc/study/domain/FoodCategory.java,7/0/701b952affee6e884def1500edcc4d98081f17a6
+
+Qsrc/main/java/umc/study/service/foodCategoryService/FoodCategoryQueryService.java,b/f/bf2a6e606ea7f03228d610e67d90b812da116d01
+…
+Usrc/main/java/umc/study/service/foodCategoryService/FoodCategoryQueryServiceImpl.java,5/5/551271178087e2f01f4930f015440d098b4eedeb
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+7
+gradlew,5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9
+;
+gradlew.bat,2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3
