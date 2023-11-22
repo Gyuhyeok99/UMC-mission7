@@ -32,4 +32,10 @@ public class Store extends BaseEntity {
 
     @OneToMany(mappedBy = "store", cascade = CascadeType.ALL)
     private List<Mission> missions = new ArrayList<>();
+
+    public void setRegion(Region region) {
+        if (region != null) {
+            this.region = region;
+        }
+    }
 }
