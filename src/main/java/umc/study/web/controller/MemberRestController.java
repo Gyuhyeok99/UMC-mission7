@@ -18,7 +18,7 @@ import javax.validation.Valid;
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/members")
-public class MemberController {
+public class MemberRestController {
 
     private final MemberCommandService memberCommandService;
 
