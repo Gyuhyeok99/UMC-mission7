@@ -1,6 +1,7 @@
 package umc.study.web.dto;
 
 import lombok.Getter;
+import umc.study.domain.enums.MissionStatus;
 import umc.study.validation.annotation.ExistCategories;
 
 import javax.validation.constraints.NotBlank;
@@ -28,4 +29,6 @@ public class MemberRequestDTO {
         @ExistCategories
         List<Long> preferCategory;
     }
+
+
 }

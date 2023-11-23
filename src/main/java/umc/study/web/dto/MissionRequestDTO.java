@@ -4,10 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import umc.study.validation.annotation.ExistRegion;
 import umc.study.validation.annotation.ExistStore;
+import umc.study.validation.annotation.NotChallenging;
 
+import javax.validation.constraints.Future;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.time.LocalDate;
 
 public class MissionRequestDTO {
@@ -17,9 +19,9 @@ public class MissionRequestDTO {
     @NoArgsConstructor
     @AllArgsConstructor
     public static class createDTO{
-        @NotBlank
+        @NotNull
         private Integer reward;
-        @NotBlank
+        @Future
         private LocalDate deadline;
         @NotBlank
         private String missionSpec;
@@ -27,13 +29,13 @@ public class MissionRequestDTO {
         private Long storeId;
     }
 
-
-    public static class addDTO{
-        @NotBlank
-        private String name;
-        @NotBlank
-        private String address;
-        @ExistRegion
-        private Long regionId;
+    @Builder
+    @Getter
+    @NoArgsConstructor
+    @AllArgsConstructor
+    public static class challengingDTO{
+        @NotChallenging
+        private Long missionId;
     }
+
 }

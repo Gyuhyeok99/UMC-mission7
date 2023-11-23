@@ -1,6 +1,7 @@
 package umc.study.domain.mapping;
 
 import lombok.*;
+import org.hibernate.annotations.ColumnDefault;
 import umc.study.domain.Member;
 import umc.study.domain.Mission;
 import umc.study.domain.common.BaseEntity;
@@ -30,4 +31,31 @@ public class MemberMission extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "mission_id")
     private Mission mission;
+
+
+    public void setMember(Member member) {
+        if (this.member != null) {
+            this.member.getMemberMissionList().remove(this);
+        }
+        this.member = member;
+        if (member != null) {
+            member.getMemberMissionList().add(this);
+        }
+    }
+
+    public void setMission(Mission mission) {
+        if (this.mission != null) {
+            this.mission.getMemberMissionList().remove(this);
+        }
+        this.mission = mission;
+        if (mission != null) {
+            mission.getMemberMissionList().add(this);
+        }
+    }
+
+    public void setStatus() {
+        this.status = MissionStatus.CHALLENGING;
+    }
+
+
 }
