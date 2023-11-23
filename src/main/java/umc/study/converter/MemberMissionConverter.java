@@ -9,7 +9,7 @@ import umc.study.web.dto.MissionResponseDTO;
 
 public class MemberMissionConverter {
 
-    public static MemberMission toMemberMission(MissionRequestDTO.challengingDTO challengingDTO) {
+    public static MemberMission toMemberMission() {
         return MemberMission.builder()
                 .status(MissionStatus.CHALLENGING)
                 .build();

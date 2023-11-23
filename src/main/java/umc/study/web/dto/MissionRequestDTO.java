@@ -37,5 +37,4 @@ public class MissionRequestDTO {
         @NotChallenging
         private Long missionId;
     }
-
 }

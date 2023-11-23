@@ -17,6 +17,7 @@ import java.util.Optional;
 @RequiredArgsConstructor
 public class NotChallengingValidator implements ConstraintValidator<NotChallenging, Long> {
 
+    //일단 귀찮아서 서비스로 안바꿈 ㅠ
     private final MemberMissionRepository memberMissionRepository;
     @Override
     public void initialize(NotChallenging constraintAnnotation) {

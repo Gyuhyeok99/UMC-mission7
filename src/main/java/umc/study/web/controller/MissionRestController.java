@@ -1,15 +1,13 @@
 package umc.study.web.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import umc.study.apiPayload.ApiResponse;
 import umc.study.converter.MemberMissionConverter;
 import umc.study.converter.MissionConverter;
 import umc.study.converter.StoreConvertor;
 import umc.study.service.missionService.MissionCommandService;
+import umc.study.validation.annotation.NotChallenging;
 import umc.study.web.dto.MissionRequestDTO;
 import umc.study.web.dto.MissionResponseDTO;
 import umc.study.web.dto.StoreRequestDTO;

@@ -8,20 +8,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/apiPayload/code/status/ErrorStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/apiPayload/code/status/ErrorStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/mapping/MemberMission$MemberMissionBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/mapping/MemberMission$MemberMissionBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/mapping/MemberMission.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/mapping/MemberMission.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/apiPayload/code/status/ErrorStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberMission.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/mapping/MemberMission.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/repository/MissionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/repository/MissionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/memberService/MemberCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/memberService/MemberCommandServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Review$ReviewBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Review$ReviewBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Review.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/umc/study/domain/Review.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/converter/MemberMissionConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/converter/MemberMissionConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/converter/StoreConvertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/converter/StoreConvertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/domain/Review.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/missionService/MissionCommandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/missionService/MissionCommandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/missionService/MissionCommandServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/missionService/MissionCommandServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/MemberRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/MemberRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/storeService/StoreQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/storeService/StoreQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/service/storeService/StoreQueryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/service/storeService/StoreQueryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/NotChallengingValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/validation/validator/NotChallengingValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/MissionRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/MissionRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MemberRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MemberRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/StoreRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/controller/StoreRestController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MissionRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MissionRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MissionResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/MissionResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreRequestDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/umc/study/web/dto/StoreResponseDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +56,8 @@
       <list>
         <option value="package-info" />
         <option value="AnnotationType" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,6 +166,7 @@
       <workItem from="1700464662644" duration="650000" />
       <workItem from="1700654210651" duration="1006000" />
       <workItem from="1700664569133" duration="202000" />
+      <workItem from="1700727765415" duration="1084000" />
     </task>
     <servers />
   </component>
