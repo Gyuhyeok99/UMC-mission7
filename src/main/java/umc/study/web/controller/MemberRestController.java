@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import umc.study.apiPayload.ApiResponse;
 import umc.study.converter.MemberConverter;
 import umc.study.domain.Member;
-import umc.study.service.MemberService.MemberCommandService;
+import umc.study.service.memberService.MemberCommandService;
 import umc.study.web.dto.MemberRequestDTO;
 import umc.study.web.dto.MemberResponseDTO;
 

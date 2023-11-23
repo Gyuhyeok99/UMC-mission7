@@ -1,4 +1,4 @@
-package umc.study.service.RegionService;
+package umc.study.service.regionService;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

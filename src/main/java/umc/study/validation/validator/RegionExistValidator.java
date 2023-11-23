@@ -3,7 +3,7 @@ package umc.study.validation.validator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 import umc.study.apiPayload.code.status.ErrorStatus;
-import umc.study.service.RegionService.RegionQueryService;
+import umc.study.service.regionService.RegionQueryService;
 import umc.study.validation.annotation.ExistRegion;
 
 import javax.validation.ConstraintValidator;

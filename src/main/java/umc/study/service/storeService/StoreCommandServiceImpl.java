@@ -1,4 +1,4 @@
-package umc.study.service.StoreService;
+package umc.study.service.storeService;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -22,7 +22,7 @@ public class StoreCommandServiceImpl implements StoreCommandService {
     private final RegionRepository regionRepository;
 
     @Override
-    public Store createStore(StoreRequestDTO.addDTO storeCreateDto) {
+    public Store createStore(StoreRequestDTO.createDTO storeCreateDto) {
         Store store = StoreConvertor.toStore(storeCreateDto);
         Region region = regionRepository.findById(storeCreateDto.getRegionId())
                 .orElseThrow(() -> new RegionHandler(ErrorStatus.REGION_NOT_FOUND));
