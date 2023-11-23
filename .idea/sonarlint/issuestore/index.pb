@@ -178,3 +178,11 @@ v
 Fsrc/main/java/umc/study/apiPayload/exception/handler/StoreHandler.java,c/b/cb53ca959daab1e3060d387793d543d77116254d
 g
 7src/main/java/umc/study/web/dto/MissionResponseDTO.java,9/8/98e887593243df6e9b797e52cea3e2b8571c4933
+m
+=src/main/java/umc/study/validation/annotation/ExistStore.java,a/b/ab1459d6d4a5e3cb176d01a4cc3d0c2c53dc3ac5
+u
+Esrc/main/java/umc/study/validation/validator/StoreExistValidator.java,4/c/4c298dcd51390a6651075f7a979773139c806cc4
+s
+Csrc/main/java/umc/study/service/storeService/StoreQueryService.java,1/e/1e5d11b07bf096426c93652878a110c87bd80003
+w
+Gsrc/main/java/umc/study/service/storeService/StoreQueryServiceImpl.java,2/6/2656d8fae8e08193b7f0e79266b747a7628a5b1d

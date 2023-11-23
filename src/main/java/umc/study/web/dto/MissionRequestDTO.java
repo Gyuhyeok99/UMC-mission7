@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import umc.study.validation.annotation.ExistRegion;
+import umc.study.validation.annotation.ExistStore;
 
 import javax.validation.constraints.NotBlank;
 import java.time.LocalDate;
@@ -16,9 +17,13 @@ public class MissionRequestDTO {
     @NoArgsConstructor
     @AllArgsConstructor
     public static class createDTO{
+        @NotBlank
         private Integer reward;
+        @NotBlank
         private LocalDate deadline;
+        @NotBlank
         private String missionSpec;
+        @ExistStore
         private Long storeId;
     }
 
